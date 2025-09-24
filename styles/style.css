@@ -1,0 +1,91 @@
+body {
+    margin: 20px;
+    padding: 0;
+    font-family: 'Alan Sans', sans-serif;
+    background: linear-gradient(to bottom right, #ffb6f9, #ffd6a5);
+    text-align: center;
+  }
+  
+  .cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .cover-photo {
+    width: 600px; /* Sets a fixed width */
+    height: auto; /* Height adjusts proportionally to maintain aspect ratio */    
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+  }
+
+  .friend-photo{
+    width: 400px; /* Sets a fixed width */
+    height: auto; /* Height adjusts proportionally to maintain aspect ratio */    
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ff6ec7;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: pink;
+  }
+  
+  /* ===== Background color options for each friend ===== */
+  .bg-blue {
+    background: linear-gradient(to bottom right, #89cff0, #4682b4);
+    background-attachment: fixed;   /* prevents striping on scroll */
+    background-size: cover;         /* ensures it covers whole screen */
+    background-repeat: no-repeat;   /* removes tiling */
+  }
+  
+  .bg-pink {
+    background: linear-gradient(to bottom right, #ffb6f9, #ff6ec7);
+    background-attachment: fixed;   /* prevents striping on scroll */
+    background-size: cover;         /* ensures it covers whole screen */
+    background-repeat: no-repeat;   /* removes tiling */
+  }
+  
+  .bg-green {
+    background: linear-gradient(to bottom right, #a8e6cf, #56ab2f);
+    background-attachment: fixed;   /* prevents striping on scroll */
+    background-size: cover;         /* ensures it covers whole screen */
+    background-repeat: no-repeat;   /* removes tiling */
+  }
+  
+  .bg-yellow {
+    background: linear-gradient(to bottom right, #fff5ba, #ffd166);
+    background-attachment: fixed;   /* prevents striping on scroll */
+    background-size: cover;         /* ensures it covers whole screen */
+    background-repeat: no-repeat;   /* removes tiling */
+  }
+  
+  .bg-purple {
+    background: linear-gradient(to bottom right, #d9a7c7, #8e54e9);
+    background-attachment: fixed;   /* prevents striping on scroll */
+    background-size: cover;         /* ensures it covers whole screen */
+    background-repeat: no-repeat;   /* removes tiling */
+  }
+  
